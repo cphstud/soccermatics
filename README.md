@@ -1,5 +1,6 @@
 # Soccermatics
-Under ressources ligger en json-fil med alle skud.<br>
+Disse data er hentet fra [dette repo](https://github.com/statsbomb/open-data.git)<br>
+Under ressources ligger en json-fil hvor alle skud er hentet ud fra La Liga (520 kampe og 12841 skud).<br>
 ### sample of data
 Nedenstående data beskrives i [denne]("events.pdf") fil. <br>
 Ideen er at man beregner vinkel og afstand til målet.<br>
