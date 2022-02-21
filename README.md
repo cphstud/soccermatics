@@ -2,7 +2,7 @@
 Disse data er hentet fra [dette repo](https://github.com/statsbomb/open-data.git)<br>
 Under ressources ligger en json-fil hvor alle skud er hentet ud fra La Liga (520 kampe og 12841 skud).<br>
 ### sample of data
-Nedenstående data beskrives i [denne]("events.pdf") fil. <br>
+Nedenstående data beskrives i [denne](events.pdf) fil. <br>
 Ideen er at man beregner vinkel og afstand til målet.<br>
 Det kan bruges til en simple xG-model [forklares her](https://www.bundesliga.com/en/bundesliga/news/expected-goals-xg-model-what-is-it-and-why-is-it-useful-sportec-solutions-3177). <br>
 Modellen kan så udvides med teknik, spillerens position (rolle i opstillingen) etc.<br>
