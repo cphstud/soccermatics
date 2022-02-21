@@ -3,7 +3,7 @@ Under ressources ligger en json-fil med alle skud.<br>
 ### sample of data
 Nedenstående data beskrives i [denne]("events.pdf") fil. <br>
 Ideen er at man beregner vinkel og afstand til målet.<br>
-Det kan bruges til en simple xG-model. <br>
+Det kan bruges til en simple xG-model [forklares her](https://www.bundesliga.com/en/bundesliga/news/expected-goals-xg-model-what-is-it-and-why-is-it-useful-sportec-solutions-3177). <br>
 Modellen kan så udvides med teknik, spillerens position (rolle i opstillingen) etc.<br>
 
 
