@@ -18,7 +18,21 @@ Dertil hører et data-sæt med alle afleveringer fra de  520 kampe.
 |  3 | 391bfb74-07a6-4afe-9568-02a9b23f5bd4 | [109.1, 38.7] | 00:16:19.616 |     6613 |         23 |    206 |                1 |              1 | [120, 32, 1.1]     | ce7a1f84-c7fc-4c08-a859-00fb1c6ba859 |          nan |          93 |          37 |     87 |        98 |          nan |          nan |
 
 <br>
+<img src="images/outcome.png" width="200">
+<img src="images/body.png" width="200">
+<img src="images/patterns.png" width="200">
 <br>
+<img src="images/techniques.png" width="200">
+<img src="images/type.png" width="200">
+<br>
+<br>
+<img src="images/pitch.png" width="400">
+<br>
+<img src="images/goal.png" width="300">
+
+<br>
+<br>
+
 Ved et skud er der desuden angivet en freeze_frame. Den er udeladt fra ovenstående<br>
 men i dén søjle angives de omkringstående spilleres position. Man vil altså ud fra det kunne tilføje features.<br>
 F.eks hvor frit målet er og om en anden medspiller evt stod bedre placeret.
