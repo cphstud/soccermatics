@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Created on Mon Feb  7 12:44:04 2022
 
@@ -10,6 +11,7 @@ import numpy as np
 import pandas as pd
 import json
 import Metrica_Viz as mviz
+from matplotlib import pyplot as plt
 
 def get_distance(p, q):
     s_sq_difference = 0
@@ -56,7 +58,14 @@ def do_stats(df):
     type_counts = df5["type"].value_counts()
     body_counts = df5["body_part"].value_counts()
 
-#fh=open("DTU/02450Toolbox_Python/Data/allshotsLaLiga.json")
+def get_angle(shot):
+    #handle the "wrong" y-axis
+    x=shot[0]
+    y=abs(shot[1]-80)
+    angle = np.arctan(7.32*x /(x**2 + y**2 - (7.32/2)**2))
+    return np.degrees(angle)
+
+
 fh=open("resources/allshotsLaLiga.json")
 data=json.load(fh)
 df=pd.DataFrame(data)
@@ -66,4 +75,10 @@ df4=pd.concat([df['id'], df['location'], df['timestamp'],df['player'],df['positi
 cleanDFName(df4)
 do_stats(df4)
 df4['dist'] = df4.apply(lambda x: get_distance(x.location, x.end_location), axis=1)
-fig,ax = mviz.plot_pitch()
+df4['angle'] = df4.apply(lambda x: get_angle(x.location), axis=1)
+#fig,ax = mviz.plot_pitch()
+fig,ax=plt.subplots()
+X=np.linspace(0,70,10)
+ax.plot(X,df4['dist'].loc[:5])
+plt.show()
+
