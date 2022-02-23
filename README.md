@@ -17,7 +17,11 @@ Dertil hører et data-sæt med alle afleveringer fra de  520 kampe.
 |  2 | 13b1ddab-d22e-43d9-bfe4-12632fea1a27 | [92, 34.5]    | 00:15:28.625 |     5503 |         24 |    217 |              nan |              8 | [117.8, 38.5, 0.4] | nan                                  |          nan |          93 |          38 |     87 |       100 |          nan |          nan |
 |  3 | 391bfb74-07a6-4afe-9568-02a9b23f5bd4 | [109.1, 38.7] | 00:16:19.616 |     6613 |         23 |    206 |                1 |              1 | [120, 32, 1.1]     | ce7a1f84-c7fc-4c08-a859-00fb1c6ba859 |          nan |          93 |          37 |     87 |        98 |          nan |          nan |
 
-### problem med trigonometrien
+### Problem med trigonometrien
+problemet er at fra straffesparkspositionen (108,40) burde man få en vinkel på 45. Men flg formel:<br>
+`angle = np.arctan(7.32*x /(x**2 + y**2 - (7.32/2)**2))`
+<br>
+giver alt for små vinkler. Også hvis man korrigerer for y-aksens orientering.
 <p float="left">
 <img src="images/angle.png" width="400">
 </p>
