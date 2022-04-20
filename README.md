@@ -47,6 +47,10 @@ tilsyneladende var alt for små.
 </p>
 <br>
 
+### Freeze Frame
+<p float="left">
+<img src="images/ffgeorgia.png" width="200">
+</p>
 Ved et skud er der desuden angivet en freeze_frame. Den er udeladt fra ovenstående<br>
 men i dén søjle angives de omkringstående spilleres position. Man vil altså ud fra det kunne tilføje features.<br>
 F.eks hvor frit målet er og om en anden medspiller evt stod bedre placeret.
@@ -66,8 +70,7 @@ F.eks hvor frit målet er og om en anden medspiller evt stod bedre placeret.
  {'location': [95.2, 41.8],
   'player': {'id': 6839, 'name': 'Daniel Alejandro Torres Rojas'},
   'position': {'id': 10, 'name': 'Center Defensive Midfield'},
-  'teammate': False},
- {'location': [100, 43.8],
+  'teammate': False}, {'location': [100, 43.8],
   'player': {'id': 6855, 'name': 'Guillermo Alfonso Maripán Loaysa'},
   'position': {'id': 5, 'name': 'Left Center Back'},
   'teammate': False},
