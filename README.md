@@ -49,7 +49,7 @@ tilsyneladende var alt for små.
 
 ### Freeze Frame
 <p float="left">
-<img src="images/ffgeorgia.png" width="600">
+<img src="images/ss.png" width="600">
 </p>
 Ved et skud er der desuden angivet en freeze_frame. Den er udeladt fra ovenstående<br>
 men i dén søjle angives de omkringstående spilleres position. Man vil altså ud fra det kunne tilføje features.<br>
